@@ -4,23 +4,20 @@
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-   <link rel="stylesheet" href="dist/styles.css"/>
+   <link rel="stylesheet" href="dist/index.css"/>
    <title>Home</title>
 </head>
 <body>
 
-<div id="custom-bootstrap-menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
+<div id="custom-bootstrap-menu" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">
-            <img class="img-rounded img-responsive"  id="prof_photo" alt="Brand" src="img/prof-thumbnail.png">
-          </a>
+
         </div>
         <div class="collapse navbar-collapse navbar-menubuilder">
             <ul class="nav navbar-nav navbar-left">
-
               <li class="active"><a href="/">Home</a>
               </li>
               <li><a href="about.html">About &amp; Bio</a>
@@ -30,14 +27,17 @@
               <li><a href="contact.html">Contact Me</a>
               </li>
             </ul>
+            <a class="navbar-brand" href="#">
+              <img class="img-rounded img-responsive"  id="prof_photo" alt="Brand" src="img/prof-thumbnail.png">
+            </a>
         </div>
+
     </div>
 </div>
 
-<div class="page-container">
-  <div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8 col-md-offset-3 col-lg-offset-2">
-      <div class="jumbotron main_jumbo">
+<div class="page-container container-fluid">
+  <div class="row" id="index_row1" style="background-image: url('temp-bg2.jpg');">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
       <div class="container">
         <div class="carousel slide" id="index_carousel" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -46,11 +46,12 @@
             <li data-target="#index_carousel" data-slide-to="2"></li>
             <li data-target="#index_carousel" data-slide-to="3"></li>
           </ol>
-          <div class="carousel-inner">
+          <div class="carousel-inner" role="listbox">
+
             <div class="item active">
               <img class="image-responsive"  src="img/temp-bg.png">
               <div class="carousel-caption">
-                <h1>Welcome to my portfolio!</h1></br>
+                <h2>Welcome to my portfolio!</h2></br>
                 <span>Thomas Nix - Aspiring Developer</span>
               </div>
             </div>
@@ -78,6 +79,7 @@
                 <span>Contact me with any inquiries</span>
               </div>
             </div>
+
           </div>
           <a class="right carousel-control" href="#index_carousel" data-slide="next">
             <span class="glyphicon glyphicon-chevron-right"></span>
@@ -89,17 +91,24 @@
 
       </div>
 
-      </div>
+
     </div>
   </div>
   <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8 col-md-offset-3 col-lg-offset-2">
-      <h2>Thank you for visiting!</h2>
+      <div class="panel panel-default" id="index_panel">
+
+          <h2>Thomas Nix - Aspiring Developer</h2>
+
+        <p>This is my personal porfolio meant to advertise my skills and accomplishments as a web developer. This page is constantly in development to improve responsivity and design.
+          Please take a look around! This page is currently being hosted on a free server provided by my university, and I am restricted to <strong>front-end only</strong>. This means and back end coding
+          (<em>Node, for example</em>) is unavailable for use. This page has been coded by hand with HTML, CSS (SASS), and JavaScript (jQuery, Angular2). </br></br>Thank you for visiting!</p>
+      </div>
     </div>
   </div>
 </div>
-<!-- jQuery -->
 
+<!-- jQuery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Bootstrap -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
