@@ -25,12 +25,19 @@ body {
   .carousel-caption h2 {
     font-size: 12px; }
   .carousel-caption span {
-    font-size: 10px; }
-  #prof_photo {
-    margin-bottom: 3vh; }
-  .navbar-header {
-    height: 8vh; }
-    .navbar-header .navbar-toggle {
-      margin-top: 2vh; }
-  .nav li a {
-    font-size: 20px; } }
+    font-size: 10px; } }
+
+.jumbotron {
+  margin-top: 10vh; }
+
+.panel-title {
+  text-align: left; }
+
+.media-object {
+  width: 5vw; }
+
+#about_bio_jumbotron_portrait {
+  width: 5vw; }
+
+#about_panel_section {
+  margin-top: 5vh; }

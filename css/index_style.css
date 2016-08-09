@@ -19,3 +19,7 @@
   padding: 5vh 5vw;
   border-top: 2px solid black;
   border-bottom: 2px solid black; }
+
+@media screen and (max-width: 544px) {
+  #index_panel p {
+    font-size: 14px; } }

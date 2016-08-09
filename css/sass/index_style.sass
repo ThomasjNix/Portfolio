@@ -1,3 +1,5 @@
+@import 'sass_vars'
+
 .page-container
   .row:first-child
     margin-top: 10vh
@@ -20,3 +22,9 @@
   padding: 5vh 5vw
   border-top: 2px solid black
   border-bottom: 2px solid black
+
+@media screen and (max-width: $mediaSMWidth)
+  #index_panel
+    p
+      font-size: 14px
+      

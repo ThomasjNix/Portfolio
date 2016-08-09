@@ -1,3 +1,5 @@
+@import 'sass_vars'
+
 .jumbotron
   margin-top: 10vh
 
@@ -11,3 +13,14 @@
 
 #about_panel_section
   margin-top: 5vh
+
+@media screen and (max-width: $mediaSMWidth)
+  .about-media-body
+    font-size: 12px
+  .about-media-object
+    width: 20vw
+  .media-heading
+    p
+      font-size: 12px
+  #about_bio_jumbotron_portrait
+    width: 20vw
