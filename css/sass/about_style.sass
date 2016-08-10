@@ -1,12 +1,54 @@
 @import 'sass_vars'
 
+.about-media
+  width: 70vw
+  border-left: 2px solid lightgrey
+  border-right: 2px solid lightgrey
+  padding: 0 2vw
+  margin: 0 auto
+
+.about-media-body:nth-of-type(even)
+  text-align: left
+  ul
+    clear: both
+    list-style: none
+    float: left
+    text-align: left
+  p
+    text-align: left
+    width: 50vw
+    float: left
+.about-media-body:nth-of-type(odd)
+  text-align: right
+  ul
+    clear: both
+    list-style: none
+    float: right
+    text-align: right
+  p
+    text-align: right
+    width: 50vw
+    float: right
+.about-media-body:not(:last-of-type)
+  border-bottom: 2px solid grey
+
+
 .jumbotron
   margin-top: 10vh
+
+.logo-vis-xs
+  margin: 0 auto
+  width: 20ve
 
 .panel-title
   text-align: left
 .media-object
   width: 5vw
+
+.media-heading
+  h3
+    font-family: $headerFont
+    font-weight: bold
 
 #about_bio_jumbotron_portrait
   width: 5vw
@@ -14,9 +56,35 @@
 #about_panel_section
   margin-top: 5vh
 
+#find_me_on
+  width: 30vw
+  margin: 0 auto
+  .panel-heading
+    font-weight: bold
+  .panel-body
+    display: flex
+    a:first-of-type
+      flex: 1
+      img
+        margin-left: 5vw
+        width: 5vw
+    a:last-of-type
+
+      img
+        margin-right: 5vw
+        width: 5vw
+
 @media screen and (max-width: $mediaSMWidth)
   .about-media-body
-    font-size: 12px
+    p
+      clear: both
+      font-size: 12px
+      text-align: center !important
+      float: left !important
+      width: initial !important
+    ul
+      float: left !important
+      text-align: left !important
   .about-media-object
     width: 20vw
   .media-heading

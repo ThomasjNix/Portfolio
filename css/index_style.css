@@ -10,7 +10,9 @@
   #index_panel p {
     padding-top: 1vh; }
   #index_panel h2 {
-    border-bottom: 1px solid black; }
+    border-bottom: 1px solid black;
+    width: 25vw;
+    margin: 0 auto; }
 
 #index_carousel {
   box-shadow: 0 0 2px 2px black; }
