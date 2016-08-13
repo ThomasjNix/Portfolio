@@ -12,6 +12,8 @@ module.exports = function(grunt){
         {src:'css/sass/main_style.sass', dest: 'css/main_style.css'},
         {src:'css/sass/index_style.sass', dest: 'css/index_style.css'},
         {src:'css/sass/about_style.sass', dest: 'css/about_style.css'},
+        {src:'css/sass/skills_style.sass', dest: 'css/skills_style.css'},
+        {src:'css/sass/contact_styles.sass', dest: 'css/contact_style.css'},
       ]}
     },
     uglify: {
