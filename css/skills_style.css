@@ -1,3 +1,21 @@
+#programming_panel, #design_panel, #communication_panel {
+  display: flex;
+  flex-direction: row; }
+  #programming_panel .gen-panel, #design_panel .gen-panel, #communication_panel .gen-panel {
+    flex: 1;
+    width: 10vw; }
+    #programming_panel .gen-panel .panel-heading, #design_panel .gen-panel .panel-heading, #communication_panel .gen-panel .panel-heading {
+      text-align: center; }
+    #programming_panel .gen-panel .panel-body img, #design_panel .gen-panel .panel-body img, #communication_panel .gen-panel .panel-body img {
+      display: block;
+      margin: 1vh auto 2vh auto; }
+  #programming_panel .gen-panel + .gen-panel, #design_panel .gen-panel + .gen-panel, #communication_panel .gen-panel + .gen-panel {
+    margin-left: 3vw; }
+  #programming_panel .gen-panel:hover, #design_panel .gen-panel:hover, #communication_panel .gen-panel:hover {
+    box-shadow: 0 0 2px 2px black;
+    transform: scale(2);
+    transition: all .2s ease-in-out; }
+
 #skills_about .jumbotron {
   margin-top: 10vh;
   border-radius: 10px;

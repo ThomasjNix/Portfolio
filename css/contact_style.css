@@ -9,6 +9,8 @@
   margin-top: 10vh;
   border-radius: 10px;
   padding: 2vh 2vw; }
+  #contact-jumbo h2 {
+    text-align: center; }
   #contact-jumbo p {
     font-size: 20px; }
   #contact-jumbo .email-contact {
@@ -30,3 +32,12 @@
     margin-left: 5vw; }
   #contact_panels .panel:last-of-type {
     margin-right: 5vw; }
+
+@media screen and (max-width: 544px) {
+  #contact_panels {
+    flex-direction: column; }
+    #contact_panels .panel {
+      margin: auto !important; }
+  #contact-jumbo {
+    width: 90vw;
+    margin: 10vh auto 0 auto; } }
