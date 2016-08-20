@@ -44,6 +44,7 @@ jspm_packages
 
 ### grunt ###
 # Grunt usually compiles files inside this directory
+#I'm leaving this ignored until the project is completed.
 dist/
 
 # Grunt usually preprocesses files such as coffeescript, compass... inside the .tmp directory

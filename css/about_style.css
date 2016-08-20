@@ -49,6 +49,9 @@
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold; }
 
+#about_accordian .panel-primary:hover {
+  cursor: hand; }
+
 #about_bio_jumbotron_portrait {
   width: 5vw; }
 

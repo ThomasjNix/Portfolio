@@ -16,7 +16,7 @@
     margin-left: 3vw
   .gen-panel:hover
     box-shadow: 0 0 2px 2px black
-    transform: scale(2.0)
+    transform: scale(1.2)
     transition: all .2s ease-in-out
 #skills_about
   .jumbotron
@@ -26,5 +26,15 @@
     p
       font-size: 14px
 
-//For XS displays
-//@media screen and (max-width: $mediaSMWidth)
+
+@media screen and (max-width: $mediaSMWidth)
+  #programming_panel, #design_panel, #communication_panel
+    flex-direction: column !important
+    .gen-panel
+      width: auto !important
+    .gen-panel + .gen-panel
+      margin-left: auto
+    .gen-panel:hover
+      box-shadow: none
+      transform: none
+      transition: none
