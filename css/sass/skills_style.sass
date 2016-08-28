@@ -5,7 +5,8 @@
   flex-direction: row
   .gen-panel
     flex: 1
-    width: 10vw
+    width: 15vw
+    margin-bottom: 5vh
     .panel-heading
       text-align: center
     .panel-body
@@ -16,8 +17,9 @@
     margin-left: 3vw
   .gen-panel:hover
     box-shadow: 0 0 2px 2px black
-    transform: scale(1.2)
-    transition: all .2s ease-in-out
+    transform: scale(1.4)
+    transition: all .4s ease-in-out
+
 #skills_about
   .jumbotron
     margin-top: 10vh
@@ -27,7 +29,7 @@
       font-size: 14px
 
 
-@media screen and (max-width: $mediaSMWidth)
+@media screen and (max-width: $mediaXLWidth)
   #programming_panel, #design_panel, #communication_panel
     flex-direction: column !important
     .gen-panel
@@ -38,3 +40,6 @@
       box-shadow: none
       transform: none
       transition: none
+    .row
+      width: 100%
+      margin: 0 auto

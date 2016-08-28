@@ -4,3 +4,10 @@ $(".nav li").on("click", function(){
 });
 
 $('.carousel').carousel({pause: true});
+
+
+
+$('.panel-primary').on('click', function(){
+    $(this).find('.accordian-collapse-icon').toggleClass('glyphicon-arrow-down');
+    $(this).find('.accordian-collapse-icon').toggleClass('glyphicon-arrow-up');
+});

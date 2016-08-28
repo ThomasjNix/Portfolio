@@ -32,6 +32,9 @@
 .about-media-body:not(:last-of-type) {
   border-bottom: 2px solid grey; }
 
+.accordian-collapse-icon {
+  display: inline-block; }
+
 .jumbotron {
   margin-top: 10vh; }
 
